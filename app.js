@@ -29,3 +29,11 @@ function calculateNote () {
 
 }
 calculateNote()
+
+function predictNote (){
+    let not1 = Number(data1.value)
+    let not2 = Number(data2.value)
+    let resulta = 3.5 (not1 * 0.3 + not2 * 0.3) / 0.4
+    data3.value = resulta.toFixed(2)
+}
+predictNote()
